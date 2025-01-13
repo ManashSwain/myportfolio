@@ -3,6 +3,7 @@ import Card from "../Components/Card"
 import Contact from "../Components/Contact"
 import Education from "../Components/Education"
 import Introduction from "../Components/Introduction"
+import Latestprojects from "../Components/Latestprojects"
 import Skills from "../Components/Skills"
 import Workexperience from "../Components/Workexperience"
 
@@ -15,6 +16,7 @@ const RootLayout = () => {
     <Workexperience/>
     <Education/>
     <Skills/>
+    <Latestprojects/>
     <Card/>
     <Contact/>
     </div>
