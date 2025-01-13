@@ -4,7 +4,7 @@ const Introduction = () => {
     <>
     <div className="introduction">
     <div className="intro">
-     <h1>Hi, I'm Manash 👋</h1>
+     <h1 className="text-red-500">Hi, I'm Manash 👋</h1>
      <p>Software Engineer turned Freelancer. I love building things and helping people. Very active on LinkedIn.</p>
     </div>
     <div className="profile-image">
