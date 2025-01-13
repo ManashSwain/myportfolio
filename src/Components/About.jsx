@@ -1,8 +1,8 @@
 const About = () => {
   return (
    <>
-   <h2>About Me</h2>
-   <h3>
+   <h2 className="text-xl font-bold mt-6">About Me</h2>
+   <h3 className="mt-4 text-lg">
    Hi there! 👋 I’m Manash Swain, a passionate MERN Stack Developer with over 4 years of experience delivering impactful web solutions. I specialize in creating modern, responsive, and user-friendly applications that solve real-world problems.
 
    Previously, I worked at Cognizant Technology Solutions, where I contributed to projects for leading clients like Nike, gaining hands-on experience in building scalable applications and collaborating with cross-functional teams.
