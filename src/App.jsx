@@ -1,15 +1,13 @@
-import Card from "./Components/Card"
-import Introduction from "./Components/Introduction"
-import Skills from "./Components/Skills"
+import Menudoc from "./Components/Menudoc"
+import RootLayout from "./Layout/RootLayout"
 
 function App() {
 
 
   return (
     <>
-    <Introduction/>
-    <Skills/>
-    <Card/>
+    <RootLayout/>
+    <Menudoc/>
     </>
   )
 }
