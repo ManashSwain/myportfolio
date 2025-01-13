@@ -16,11 +16,14 @@ const Skills = () => {
   return (
     <>
     <div className="skills">
+      <h2 className="text-xl font-bold mt-6">Skills</h2>
+      <div className="mt-4">
         {skills.map((skill)=>{
-                return<button key={skill.id} className="rounded-md bg-slate-800 py-1 px-2 border border-transparent text-center text-xs text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2" type="button">
+                return<button key={skill.id} className="rounded-md bg-slate-800 py-1 m-1 px-2 border border-transparent text-center text-xs text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2" type="button">
                 {skill.title}
               </button>
         })}
+        </div>
     </div>   
     </>
   )
