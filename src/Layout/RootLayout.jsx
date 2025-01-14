@@ -1,5 +1,4 @@
 import About from "../Components/About"
-import Card from "../Components/Card"
 import Contact from "../Components/Contact"
 import Education from "../Components/Education"
 import Introduction from "../Components/Introduction"
@@ -17,7 +16,6 @@ const RootLayout = () => {
     <Education/>
     <Skills/>
     <Latestprojects/>
-    <Card/>
     <Contact/>
     </div>
     </>
