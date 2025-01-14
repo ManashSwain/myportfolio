@@ -1,4 +1,4 @@
-import Menudoc from "./Components/Menudoc"
+
 import RootLayout from "./Layout/RootLayout"
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <RootLayout/>
-    <Menudoc/>
+    
     </>
   )
 }

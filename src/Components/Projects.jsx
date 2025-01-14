@@ -2,7 +2,7 @@
 const Projects = () => {
   return (
     <>
-    projects
+    <div></div>
     </>
   )
 }

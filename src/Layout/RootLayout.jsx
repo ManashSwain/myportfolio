@@ -4,6 +4,7 @@ import Education from "../Components/Education"
 import Introduction from "../Components/Introduction"
 import Latestprojects from "../Components/Latestprojects"
 import Skills from "../Components/Skills"
+import Sociallinks from "../Components/Sociallinks"
 import Workexperience from "../Components/Workexperience"
 
 const RootLayout = () => {
@@ -17,6 +18,7 @@ const RootLayout = () => {
     <Skills/>
     <Latestprojects/>
     <Contact/>
+    <Sociallinks/>
     </div>
     </>
   )
